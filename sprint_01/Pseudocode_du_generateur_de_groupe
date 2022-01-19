@@ -1,0 +1,25 @@
+ - Titre = sert à définir le projet clairement
+
+ - Zone d'insertion: Ajouter le nom et prénom de chaques participants.Un participant par ligne 
+
+
+ - FUNCTION -> Ajouter un participant "nom-prenom par ligne"
+
+ - FUNCTION -> fonction supprimer participant "effacer prenom-nom"
+
+
+ - FUNCTION -> Bouton "nombre de groupes"
+
+  1 - "IF" = Si le nombre de groupes = à '0'ou est vide -> un message d'erreur s'affiche et les groupes ne peuvent pas etre générés
+  2 - "ELSE" = En revanche si le nombre de groupe souhaité et correct la liste se divise bien par le nombre de groupe souhaité 
+  3 - Cette fonction permet de définir le nombre de groupes souhaités
+
+ - FUNCTION -> Bouton "Générer"
+
+  1 - Permet de faire l'action de Diviser la "liste" par le nombre de groupes souhaités
+  2 - La Formation des groupes est ainsi réalisée
+
+ - FUNCTION -> Zone "Résultat"
+
+  1- Composé du nombre de groupe prévu divisé par le nombre de personnes souhaités
+  --> le résultat s'affiche les groupes sont alors crées
